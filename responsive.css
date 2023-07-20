@@ -1,0 +1,84 @@
+@media screen and (max-width:700px) {
+    .nav-container{
+flex-direction: column;
+
+
+    }
+    .logo-items{
+flex-direction: column;
+
+    }
+    .logo-items{
+margin-top: 20px;
+    }
+    .banner-container{
+        display: grid;
+        flex-direction: column;
+    }
+
+    .funny-container{
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+    .funny-images{
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .play-container{
+        display:grid;
+        flex-direction: column;
+    }
+    .small-container{
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+    .footer-container{
+        display:grid;
+        flex-direction: column;
+
+    }
+}
+@media screen and (min-width:700px)  and (max-width:992px) {
+    .nav-container{
+flex-direction: column;
+
+
+    }
+    .logo-items{
+flex-direction: column;
+
+    }
+    .logo-items{
+margin-top: 20px;
+    }
+    .banner-container{
+        display: grid;
+        flex-direction: column;
+    }
+
+    .funny-container{
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+    .funny-images{
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .play-container{
+        display:grid;
+        flex-direction: column;
+    }
+    .small-container{
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+    .footer-container{
+        display:grid;
+        flex-direction: column;
+
+    }
+}

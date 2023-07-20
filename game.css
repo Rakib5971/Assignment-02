@@ -1,0 +1,172 @@
+
+
+
+
+
+.nav-container{
+min-height: 10px;
+display: flex;
+align-items: center;
+justify-content: space-around;
+background-color: rgb(52, 85, 148);
+
+margin:0 auto;
+}
+.logo-container{
+display: flex;
+}
+.logo-container p{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+.logo-container img{
+    padding:20px;
+   height: 50px;
+}
+
+.logo-items{
+width: 30%;
+justify-content: space-between;
+align-items: center;
+
+
+}
+.anchor{
+padding: 20px;
+text-decoration: none;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 30px;
+color:black;
+}
+.login-btn{
+    background-color: rgb(82, 81, 81) ;
+    padding:10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color:black;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(241, 155, 123);
+}
+.banner-description{
+    padding: 50px;
+}
+
+
+
+.play{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.goat{
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient( to bottom, rgb(235, 14, 106),rgb(235, 9, 235) ) ;
+    color:transparent;
+    -webkit-background-clip: text ;
+}
+.click{
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(66, 66, 66)
+}
+.banner-button{
+    padding:10px;
+    background-color:darkviolet;
+    font-size: 20px 10px;
+    border-radius:50px ;
+
+}
+.funny-description{
+    text-align: center;
+}
+.funny-description h1{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.funny{
+    background-image: linear-gradient( to bottom, rgb(235, 14, 106),rgb(235, 9, 235) ) ;
+    color:transparent;
+    -webkit-background-clip: text ;
+}
+.funny-images{
+    display: flex;
+    justify-content: space-around;
+}
+.play-description{
+    font-size: 40px ;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 150px ;
+    padding:20px;
+}
+.paragraph{
+    font-size: 15px;
+}
+.play-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+    
+}
+
+    .play-img{
+        padding:80px ;
+    }
+
+.play2{
+    position: relative;
+    padding-right: 200px;
+    bottom: 110px;
+    left: 10px;
+    width: 150px;
+    
+}
+.instant{
+    background-image: linear-gradient( to bottom, rgb(235, 14, 106),rgb(235, 9, 235) ) ;
+    color:transparent;
+    -webkit-background-clip: text ;
+
+}
+.action{
+    color: black;
+    text-decoration: none;
+    
+    
+}
+.small-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding:20px;
+    margin: 20px;
+    
+}
+.footer-container{
+background-color: darkblue;
+width: 100%;
+height: 60vh;
+align-items: center;
+
+}
+    .gamer{
+        font-size: 40px;
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        padding:100px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .footer-logo{
+        width:100px;
+        height: 80px;
+        padding:30px;
+    }
+    .icon{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        
+    }
